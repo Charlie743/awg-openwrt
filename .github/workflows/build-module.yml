@@ -12,17 +12,17 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.0"
+          - tag: "21.02.6"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7981
             vermagic: "2228956142178d81b0b7f9077dc8d63d"
-          - tag: "23.05.0"
+          - tag: "21.02.6"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7981
             vermagic: "2228956142178d81b0b7f9077dc8d63d"
-          - tag: "23.05.0"
+          - tag: "21.02.6"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7981
